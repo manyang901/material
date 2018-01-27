@@ -37,9 +37,6 @@ https://wska.mainstars.net 注意: 实际使用应该会与这个站有差别(�
 	- 缩略图支持 Markdown 格式, HTML 格式以及附件形式, Markdown 格式为 `![图片描述](图片链接)` 。
 	- 如果想要自定义某篇文章的缩略图, 但是不想让该图片在文章中出现, 则可以使用该格式 `<img src="图片链接" width="0px" /> ` 。
 - 首页文章概览默认最大输出80个字符, 可手动添加截断符 `<!-- more -->` 控制输出。
-- 在侧边栏中使用友情链接, 需安装此友情链接插件  [typecho-links-material](https://github.com/viosey/typecho-links-material)。
-- [浏览次数 & 点赞插件](https://github.com/manyang901/TeStat/archive/1.0.0.zip) 安装该插件可实现文章内点赞, 首页文章信息与文章页分享按钮下拉选项中会显示浏览次数统计 (使用 cookie 策略)。
-
 
 ## Preview 预览
 
