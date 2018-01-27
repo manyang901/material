@@ -25,7 +25,7 @@
 
 ## Demo 演示
 
-https://wska.mainstars.net 注意: 实际显示效果可能会与这个页面略有差别.
+https://wska.mainstars.net 注意: 实际使用应该会与这个站有差别(主要是图片方面).
 
 ## Setup 设置
 
@@ -43,7 +43,7 @@ https://wska.mainstars.net 注意: 实际显示效果可能会与这个页面略
 
 ## Preview 预览
 
-https://wska.mainstars.net 注意: 实际显示效果可能会与这个页面略有差别.
+https://wska.mainstars.net 注意: 实际使用应该会与这个站有差别(主要是图片方面).
 
 ## Config 可选功能
 
