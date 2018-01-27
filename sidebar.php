@@ -179,15 +179,14 @@
         </a>
         </li>
         <?php endif; ?>
-
             <!-- Article Numebr  -->
             <li>
-                <a href="#">
-                    <?php if ($this->options->langis == '0'): ?> Article Number
-                    <?php elseif ($this->options->langis == '1'): ?> 文章总数
-                    <?php elseif ($this->options->langis == '2'): ?> 文章總數
+                <a href="index.php/author/1/">
+                    <?php if ($this->options->langis == '0'): ?> Article&nbsp;&nbsp;
+                    <?php elseif ($this->options->langis == '1'): ?> 文章&nbsp;&nbsp;
+                    <?php elseif ($this->options->langis == '2'): ?> 文章&nbsp;&nbsp;
                     <?php endif; ?>
-                    <span class="sidebar-badge"><?php echo $stat->publishedPostsNum;?></span>
+                    <span><?php echo $stat->publishedPostsNum;?>篇</span>
                 </a>
             </li>
         </ul>
@@ -198,10 +197,10 @@
         <!-- Sidebar bottom text -->
 
 
-        <a href="https://github.com/viosey/typecho-theme-material" target="_blank" class="sidebar-footer-text-a">
+        <a href="https://github.com/wskacrs/typecho-materialw" target="_blank" class="sidebar-footer-text-a">
             <div class="sidebar-text mdl-button mdl-js-button mdl-js-ripple-effect sidebar-footer-text-div">
-                <?php if ($this->options->langis == '0'): ?> Theme - Material
-                <?php elseif ($this->options->langis == '1'): ?> 主题 - Material
+                <?php if ($this->options->langis == '0'): ?> Theme - Materialw
+                <?php elseif ($this->options->langis == '1'): ?> 主题 - Materialw
                 <?php endif; ?>
             </div>
         </a>
