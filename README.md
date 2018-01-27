@@ -29,7 +29,7 @@ https://wska.mainstars.net 注意: 实际使用应该会与这个站有差别(�
 
 ## Setup 设置
 
-- [Github ](https://github.com/wskacrs/material/releases)，点击"Download ZIP"下载，解压后将文件夹改名为 "Material"(或其他) 后上传到 `/usr/themes`，并启用主题。
+- [Github ](https://github.com/wskacrs/typecho-materialw/releases)，点击"Download ZIP"下载，解压后将文件夹改名为 "Material"(或其他) 后上传到 `/usr/themes`，并启用主题。
 - 下载最新文件 然后覆盖原文件即可更新主题, 部分新增加的功能需要到后台开启才会生效 (建议更新后先切换为其他主题, 再切换回该主题)。否则有可能会导致莫名其妙的 bug...
 - 在 "设置外观" 中打造一个属于你自己的博客
 - 关于文章缩略图
