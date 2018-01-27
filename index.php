@@ -138,10 +138,9 @@ $this->need('header.php');?>
 
                                 <!-- Pages button -->
                                 <button id="show-pages-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-                                    <i class="material-icons" role="presentation">view_carousel</i>
-                                    <span class="visuallyhidden">Pages</span>
-                                </button>
-                                <!-- Show All the page exist in the system -->
+                                <i class="material-icons" role="presentation">more_vert</i>
+                                <span class="visuallyhidden">Pages</span>
+                            </button>
                                 <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="show-pages-button">
                                     <?php $this->widget('Widget_Contents_Page_List')->to($pages); ?>
                                     <?php while ($pages->next()): ?>
@@ -152,19 +151,14 @@ $this->need('header.php');?>
                                     </a>
                                     <?php endwhile; ?>
                                 </ul>
-                                <!-- Pages shown End -->
 
-
-
-                                <!-- Show All Availble Actions Including Sharing -->
                                 <!--  Menu button-->
                                 <button id="menubtn" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-                                    <i class="material-icons" role="presentation">more_vert</i>
+                                    <i class="material-icons" role="presentation">launch</i>
                                     <span class="visuallyhidden">show menu</span>
                                 </button>
                                 <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="menubtn">
 
-                                    <!-- 文章的RSS地址连接 -->
                                     <a href="<?php $this->options->feedUrl(); ?>" class="md-menu-list-a">
                                         <li class="mdl-menu__item mdl-js-ripple-effect">
                                             <?php if ($this->options->langis == '0'): ?> Article RSS
@@ -172,7 +166,7 @@ $this->need('header.php');?>
                                             <?php endif; ?>
                                         </li>
                                     </a>
-
+                                    <!-- 文章的RSS地址连接 -->
                                     <a class="md-menu-list-a" href="https://www.facebook.com/sharer/sharer.php?u=<?php $this->options->siteUrl(); ?>">
                                         <li class="mdl-menu__item">
                                             <?php if ($this->options->langis == '0'): ?> Share to Facebook
@@ -201,18 +195,12 @@ $this->need('header.php');?>
                                             <?php endif; ?>
                                         </li>
                                     </a>
-                                    <a class="md-menu-list-a" href="http://service.weibo.com/share/share.php?appkey=&title=<?php $this->options->title(); ?>&url=<?php $this->options->siteUrl(); ?>&pic=&searchPic=false&style=simple ">
-                                        <li class="mdl-menu__item">
-                                            <?php if ($this->options->langis == '0'): ?> Share to Weibo
-                                            <?php else: ?> 分享到新浪微博
-                                            <?php endif; ?>
-                                        </li>
-                                    </a>
                                 </ul>
                             </div>
-                            <!-- Infomation End-->
+                       <!-- Infomation End-->
                 </div>
-                <!-- Blog Info End-->
+            <!-- Blog Info End-->
+
 
 
 
