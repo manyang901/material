@@ -25,7 +25,7 @@
 
 ## Demo 演示
 
-https://wska.mainstars.net
+https://wska.mainstars.net 注意: 实际显示效果可能会与这个页面略有差别.
 
 ## Setup 设置
 
