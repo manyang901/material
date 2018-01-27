@@ -7,15 +7,13 @@ function themeConfig($form)
         <span style="display: block;
     margin-bottom: 10px;
     margin-top: 10px;
-    font-size: 16px;">感谢您使用 Material 主题</span>
-        <span style="margin-bottom:10px;display:block">请关注 <a href="https://github.com/manyang901/material" target="_blank" style="color:#3384da;font-weight:bold;text-decoration:underline">Github-Material</a> 以获得<span style="color:#df3827;font-weight:bold;">最新版本支持</span></span>
-        <a href="mailto:my@kucloud.win" >帮助&支持</a> &nbsp;
-    <a href="https://github.com/manyang901/material/issues" target="_blank">建议&反馈</a>
+    font-size: 16px;">不感谢你使用 Material 主题</span>
+        <span style="margin-bottom:10px;display:block">请关注 <a href="https://github.com/wskacrs/material" target="_blank" style="color:#3384da;font-weight:bold;text-decoration:underline">Github-Material</a> 以获得<span style="color:#df3827;font-weight:bold;">最新版本支持</span></span>
+        </a> &nbsp;
         </p>';
 
     $switch = new Typecho_Widget_Helper_Form_Element_Checkbox('switch',
         array(
-            'ShowUpyun' => _t('侧边栏显示 upyun 联盟 logo'),
             'SmoothScroll' => _t('平滑滚动效果'),
             'ShowLoadingLine' => _t('顶部 loading 加载进度条效果'),
             'PJAX' => _t('使用 pjax'),
@@ -92,36 +90,11 @@ function themeConfig($form)
     $commentis = new Typecho_Widget_Helper_Form_Element_Radio('commentis',
         array(
             '0' => _t('使用原生评论 &emsp;'),
-            '1' => _t('使用hypercomment &emsp;'),
-            '2' => _t('使用wildfire &emsp;'),
-            '3' => _t('使用Gitalk &emsp;')
         ),
 
         '0', _t('文章评论'), _t("默认使用原生评论,如使用其他评论，请自己添加相应配置项")
     );
     $form->addInput($commentis);
-
-
-
-    $HyperID = new Typecho_Widget_Helper_Form_Element_Text('HyperID', null, null, _t('HyperComment Config'), _t('HyperComment Widgt ID'));
-    $form->addInput($HyperID);
-
-    $wildfire = new Typecho_Widget_Helper_Form_Element_Textarea('wildfire', null, null, _t('Wildfire Config'), _t('填入wildfire的配置(config项的内容)'));
-    $form->addInput($wildfire);
-
-    $GitalkClientID = new Typecho_Widget_Helper_Form_Element_Text('GitalkClientID', null, null, _t('Gitalk Config'), _t('填入github app申请到的ClientID'));
-    $form->addInput($GitalkClientID);
-
-    $GitalkClientSecret = new Typecho_Widget_Helper_Form_Element_Text('GitalkClientSecret', null, null, _t('Gitalk Config'), _t('github app对应的ClientSecret'));
-    $form->addInput($GitalkClientSecret);
-
-    $GitalkRepo = new Typecho_Widget_Helper_Form_Element_Text('GitalkRepo', null, null, _t('Gitalk Config'), _t('用于放置评论的repo名，注意不是repo的链接'));
-    $form->addInput($GitalkRepo);
-
-    $GitalkOwner = new Typecho_Widget_Helper_Form_Element_Text('GitalkOwner', null, null, _t('Gitalk Config'), _t('拥有向repo写权限的用户名'));
-    $form->addInput($GitalkOwner);
-
-
 
     $CDNURL = new Typecho_Widget_Helper_Form_Element_Text('CDNURL', null, null, _t('CDN 地址'), _t("
         新建一个'MaterialCDN' 文件夹, 把'css, fonts, img, js' 文件夹放进去, 然后把'MaterialCDN' 上传到到你的 CDN 储存空间根目录下<br />
