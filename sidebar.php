@@ -203,22 +203,7 @@
                 <?php if ($this->options->langis == '0'): ?> Theme - Material
                 <?php elseif ($this->options->langis == '1'): ?> 主题 - Material
                 <?php endif; ?>
-                <span class="sidebar-badge badge-circle">i</span>
             </div>
         </a>
-
-
-        <?php if (!empty($this->options->switch) && in_array('ShowUpyun', $this->options->switch)) : ?>
-        <div id="upyun-logo">
-            <a href="https://www.upyun.com/" target="_blank">
-                <?php if (!empty($this->options->CDNURL)): ?>
-                <img src="<?php $this->options->CDNURL() ?>/MaterialCDN/img/upyun_logo.jpg" width="103px" height="45px" />
-                <?php else: ?>
-                <img src="<?php $this->options->themeUrl('img/upyun_logo.jpg'); ?>" width="103px" height="45px" />
-                <?php endif; ?>
-            </a>
-        </div>
-        <?php endif; ?>
-
 
 </aside>
