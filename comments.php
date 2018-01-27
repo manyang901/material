@@ -42,8 +42,7 @@
         <button id="comment-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
                 <i class="material-icons" role="presentation">thumb_up</i>
                 <span class="visuallyhidden">like comment</span>
-            </button>
-        <!-- dislike -->
+            </button>        <!-- dislike -->
         <button id="comment-dislike-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
                 <i class="material-icons" role="presentation">thumb_down</i>
                 <span class="visuallyhidden">dislike comment</span>
@@ -89,7 +88,6 @@
 
 <?php
 } ?>
-
 
 
 <!-- 使用原生评论 -->
