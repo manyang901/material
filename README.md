@@ -1,14 +1,10 @@
 # Material 原质
 
->原之质，物之渊
-
-![](https://qiniu.viosey.com/img/Material-Phone-Render.png)
-
+>Tips: 本主题为C.R.S'S自用款. 一切修改只会按我个人喜好来.
 
 ## Contents 目录
 
 - [General 概括](#general-概括)
-- [Feature 特性](#feature-特性)
 - [Demo 演示](#demo-演示)
 - [Setup 设置](#setup-设置)
 - [Preview 预览](#preview-预览)
@@ -19,36 +15,20 @@
 
 ## General 概括
 
+- Modify 修改: WSKaCrs
 - Author 作者：Manyang901
 - Original Author 原作者：Viosey
 - Version 版本：1.0.0
 - Compatibility 兼容：PHP 5.4+, MySQL, Typecho 1.0、1.1（其余数据库未测试）
 - [![Gitter](https://img.shields.io/gitter/room/material-theme/typecho.svg?style=flat-square)](https://gitter.im/material-theme/typecho?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
 
-
-## Feature 特性
-
-- 侧边栏含有有关博客的详细信息以及相关操作
-- 极其丰富的自定义设置
-- 自带中英文界面语言
-- 自带多种功能与特效
-- pjax 无刷新跳转（？待确认）
-- PanGu.js 中英文之间自动添加空格（可选）
-- [wildfire](https://github.com/cheng-kang/wildfire) 野火评论、HyperComment评论、基于Github Issue的Gitalk评论。
-
 ## Demo 演示
 
-Experience the Material theme in live: [typecho-theme-material Demo](https://blog.viosey.com)
-
->Attention: This Demo is based on Hexo, and use [hexo-theme-material](https://github.com/viosey/hexo-theme-material) theme, there maybe something different with [typecho-theme-material](https://github.com/viosey/typecho-theme-material).
-
-体验 Material 主题: [typecho-theme-material 演示](https://blog.viosey.com)
-
->注意：此演示基于 Hexo，并使用了 [hexo-theme-material](https://github.com/viosey/hexo-theme-material) 主题，与 [typecho-theme-material](https://github.com/viosey/typecho-theme-material) 有较大差异。
+https://wska.mainstars.net
 
 ## Setup 设置
 
-- [Github ](https://github.com/manyang901/material/releases)，点击"Download ZIP"下载，解压后将文件夹改名为 "Material"(或其他) 后上传到 `/usr/themes`，并启用主题。
+- [Github ](https://github.com/wskacrs/material/releases)，点击"Download ZIP"下载，解压后将文件夹改名为 "Material"(或其他) 后上传到 `/usr/themes`，并启用主题。
 - 下载最新文件 然后覆盖原文件即可更新主题, 部分新增加的功能需要到后台开启才会生效 (建议更新后先切换为其他主题, 再切换回该主题)。否则有可能会导致莫名其妙的 bug...
 - 在 "设置外观" 中打造一个属于你自己的博客
 - 关于文章缩略图
@@ -62,32 +42,15 @@ Experience the Material theme in live: [typecho-theme-material Demo](https://blo
 
 ## Preview 预览
 
-
-![](https://qiniu.viosey.com/img/typecho-theme-material-screenshot.jpg)
-
-![](https://qiniu.viosey.com/img/typecho-theme-material-vertical.jpg)
-
-![](https://qiniu.viosey.com/img/TM-2.0-Rem-1.png)
-
-
+https://wska.mainstars.net
 
 ## Config 自定义功能
 
 ### wildfire评论
 
-参见wildfire官方文档
-其中把config字段的值填入typecho后台'设置外观'的对应项中
-
-### HyperComment评论
-前往hypercomment注册账号
-来自俄罗斯的评论服务，免费账号支持一个网站一个widgt，界面干净，个人网站用足矣。
-
-
 ## Contributing 贡献
 
-All kinds of contributions (enhancements, new features, documentation & code improvements, issues & bugs reporting) are welcome.
-
-欢迎各种形式的贡献，包括但不限于优化，添加功能，文档 & 代码的改进，问题和 bugs 的报告。期待您的 `Pull Request`。
+不欢迎各种形式的贡献，包括但不限于优化，添加功能，文档 & 代码的改进，问题和 bugs 的报告。期待您的`fork`。
 
 
 ## License 许可证
