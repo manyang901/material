@@ -1,6 +1,6 @@
 # Material 原质
 
->Tips: 本主题为C.R.S'S自用款, 一切修改只会按我个人喜好来.
+>Tips: 本主题为C.R.S'S Blog自用款, 一切修改只会按我个人喜好来.
 >如果你只是在找一个typecho的material主题, 请前往 https://github.com/manyang901/material 或 https://github.com/idawnlight/typecho-theme-material 或 https://github.com/viosey/typecho-theme-material (行吧这串url看着真壮观)
 
 ## Contents 目录
