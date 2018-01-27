@@ -45,9 +45,12 @@ https://wska.mainstars.net 注意: 实际显示效果可能会与这个页面略
 
 https://wska.mainstars.net 注意: 实际显示效果可能会与这个页面略有差别.
 
-## Config 自定义功能
+## Config 可选功能
 
-不提供.
+https://github.com/inkedawn/Typecho-Plugin-Uptime 插件- 页脚显示运行时间
+https://github.com/D-Bood/reCAPTCHA 插件- 使用reCAPTCHA进行评论验证
+https://github.com/manyang901/TeStat/archive/1.0.0.zip 插件- 文章内点赞 首页文章信息与浏览次数统计
+https://github.com/viosey/typecho-links-material 插件- 友情链接
 
 ## Contributing 贡献
 
