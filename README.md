@@ -43,7 +43,7 @@ https://wska.mainstars.net
 
 ## Preview 预览
 
-https://wska.mainstars.net
+https://wska.mainstars.net 注意: 实际显示效果可能会与这个页面略有差别.
 
 ## Config 自定义功能
 
