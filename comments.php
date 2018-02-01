@@ -178,8 +178,6 @@
             <div class="mdl-tooltip" for="comment-button">Submit</div>
         </form>
     </div>
-    <!-- reCAPTCHA插件支持 ->
-    <?php reCAPTCHA_Plugin::output(); ?>
 
     <?php $comments->listComments(); ?>
     <?php $comments->pageNav('&laquo; 前一页', '后一页 &raquo;'); ?>
